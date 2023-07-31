@@ -17,11 +17,9 @@ const ArtistCard: React.FC<ArtistCardProps> = ({ artist, index }) => {
     <Card className='flex justify-between items-center w-fit p-4 m-2 w-128  duration-200 transition hover:ease-in hover:bg-accent'>
       <div className='flex flex-col justify-center items-center'>
         <img
-          className='object-cover aspect-square mb-2 rounded-lg'
+          className='object-cover aspect-square mb-2 rounded-lg w-52 h-52'
           src={artistImg}
           alt='album image'
-          width='200'
-          height='200'
         />
         <div>
           <p className='font-medium'>{artistName}</p>

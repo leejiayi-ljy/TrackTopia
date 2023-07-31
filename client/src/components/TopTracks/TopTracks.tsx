@@ -33,7 +33,6 @@ const TopTracks: React.FC<TopTrackProps> = ({
   useEffect(() => {
     getTopTracks(timeRange, limit)
   }, [timeRange, limit])
-  console.log('topTrackList', topTrackList)
 
   return (
     <div className='md:mx-auto flex justify-center items-center'>
