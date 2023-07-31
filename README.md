@@ -7,3 +7,4 @@ Tracktopia seamlessly integrates with the Spotify Web API to provide personalize
 * React with TypeScript: Frontend library for building the user interface with static typing support.
 * Spotify Web API: Access Spotify's vast music library and user data.
 * shadcn/ui library: A UI component library for creating visually appealing and interactive user interfaces.
+* Chart.js library: A visual analytics UI library for creating responsive charts.
